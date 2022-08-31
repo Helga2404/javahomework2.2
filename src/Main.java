@@ -3,9 +3,9 @@ public class Main {
 
         int amount = 100; //изначально на счете
         int payment = 1100; //размер платежа
-        int x = 100; //условие бонуса
+        int x = 1000; //условие бонуса
         int bonus = 1; //размер бонуса за 100 рублей
-        int bonusTotal = payment / x; //размер бонуса
+        int bonusTotal = payment / 100; //размер бонуса
         int total = amount + payment + bonusTotal; //всего на счете
 
         if (payment >= x) {
